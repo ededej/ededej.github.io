@@ -1,6 +1,7 @@
 .header {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px;
     background-color: #d3dfe7; /* Neutral background color */

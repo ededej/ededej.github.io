@@ -4,7 +4,7 @@ import './Hobsons.css';
 const Hobsons = () => {
   return (
     <div>
-      <h3>Hobsons, Arlington, VA</h3>
+      <h3 className="experience-name">Hobsons - Arlington VA</h3>
       <p><strong>Senior Software Engineer - Naviance, Dec 2019 – June 2021</strong><br/>
       Modernized a monolithic PHP application using AWS services, set up CI/CD pipelines, and ensured code quality. Led the team in developing microservices and collaborated with product teams to address technical challenges.</p>
 

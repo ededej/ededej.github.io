@@ -4,7 +4,7 @@ import './PyramidSystems.css';
 const PyramidSystems = () => {
   return (
     <div>
-      <h3>Pyramid Systems, Fairfax, VA</h3>
+      <h3 className="experience-name">Pyramid Systems - Fairfax VA</h3>
       <p><strong>Software Engineer II, June 2018 – Apr 2019</strong><br/>
       Collaborated with business analysts and team leads to meet development requirements. Assisted in all phases of software development and supported new team members.</p>
 

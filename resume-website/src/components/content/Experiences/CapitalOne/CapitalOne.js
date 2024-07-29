@@ -4,7 +4,7 @@ import './CapitalOne.css';
 const CapitalOne = () => {
   return (
     <div>
-      <h3>Capital One - McLean, VA</h3>
+      <h3 className="experience-name" >Capital One - McLean VA</h3>
       <p><strong>Principal Software Engineer, June 2024 – Present</strong><br/>
       Leading the design, development, and maintenance of digital payment systems. Skilled in code review, system optimization, and project management. Implementing best practices to ensure secure and scalable solutions while mentoring engineering teams and collaborating with stakeholders.</p>
 
