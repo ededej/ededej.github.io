@@ -1,1 +1,19 @@
-/* Add any specific styles for the About Me section here */
+/* Add any specific styles for the AboutMe section here if needed */
+p {
+    padding-left: 20px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* Add any specific styles for the AboutMe section here if needed */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  

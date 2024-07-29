@@ -2,8 +2,14 @@
   background-color: #007acc;
   color: #fff;
   text-align: inherit;
-  padding: 10px;
+  padding: 0px ;
+  margin-top: 10px;
   position: fixed;
   width: 100%;
   bottom: 0;
+  .header-email,
+  .header-linkedin {
+    color: #fff;
+    margin: 5px 5px; /* Adds some space between the links */
+  }
 }

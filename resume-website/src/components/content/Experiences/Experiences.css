@@ -1,0 +1,8 @@
+.divider {
+    height: 3px;
+    background-color: #ad9191;
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+.experience-name {
+    text-decoration: underline;
+  }

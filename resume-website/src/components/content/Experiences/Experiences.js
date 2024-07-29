@@ -10,8 +10,11 @@ const Experiences = () => {
   return (
     <Section title="Experience">
       <CapitalOne />
+      <div className="divider" />
       <Hobsons />
+      <div className="divider" />
       <PyramidSystems />
+      <div className="divider" />
       <SAIC />
     </Section>
   );
