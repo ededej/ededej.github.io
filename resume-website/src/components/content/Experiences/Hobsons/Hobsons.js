@@ -10,6 +10,7 @@ const Hobsons = () => {
 
       <p><strong>Software Engineer - Naviance, Apr 2019 – Dec 2019</strong><br/>
       Implemented self-service SAML for secure authentication, migrated CI processes to Codefresh, and enhanced testing and deployment speeds.</p>
+      <p><strong>Stack:</strong> Typescript, NodeJs, AWS lambda, DynamoDb, API Gateway, SQL, PHP, React, SAML, New Relic, Splunk, Cypress</p>
     </div>
   );
 }

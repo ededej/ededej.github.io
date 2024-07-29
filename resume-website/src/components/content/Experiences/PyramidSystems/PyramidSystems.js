@@ -9,9 +9,9 @@ const PyramidSystems = () => {
       Collaborated with business analysts and team leads to meet development requirements. Assisted in all phases of software development and supported new team members.</p>
 
       <p><strong>Software Engineer I, June 2017 – June 2018</strong><br/>
-      Enhanced USCIS scheduling systems with a new algorithm, improved efficiency, and developed a scheduler calendar feature.<br/>
-      <em>Tech:</em> Java, jUnit, Spring, SQL, AWS EC2 microservices, Angular, Jenkins.</p>
-    </div>
+      Enhanced USCIS scheduling systems with a new algorithm, improved efficiency, and developed a scheduler calendar feature.<br/> </p>
+      <p><strong>Stack:</strong> Java, jUnit, Springboot, SQL, AWS EC2 microservices, AngularJs, Javascript, Jenkins, Git.</p>
+      </div>
   );
 }
 
