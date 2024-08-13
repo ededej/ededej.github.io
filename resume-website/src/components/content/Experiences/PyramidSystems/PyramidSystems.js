@@ -12,6 +12,7 @@ const PyramidSystems = () => {
       Enhanced USCIS scheduling systems with a new algorithm, improved efficiency, and developed a scheduler calendar feature.<br/> </p>
       <p><strong>Stack:</strong> Java, jUnit, Springboot, SQL, AWS EC2 microservices, AngularJs, Javascript, Jenkins, Git.</p>
       </div>
+      
   );
 }
 

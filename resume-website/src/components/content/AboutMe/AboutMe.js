@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <Section title="About Me">
       <p>
-        I am a Lead Software Engineer specializing in payments, with a strong background in designing, developing, and maintaining secure and scalable payment systems. My expertise includes leading engineering teams, ensuring compliance with industry standards, collaborating with stakeholders to achieve business goals, and driving successful project completion. Additionally, I possess advanced skills in testing, performance optimization, and taking ownership of projects to deliver high-quality solutions.
+      I am a Lead Software Engineer specializing in building backend systems, with a strong background in designing, developing, and maintaining secure and scalable systems. My expertise includes leading engineering teams, ensuring compliance with industry standards, collaborating with stakeholders to achieve business goals, and driving successful project completion. Additionally, I possess advanced skills in testing, performance optimization, and taking ownership of projects to deliver high-quality solutions. I have successfully worked on diverse projects across various fields, including finance, education, and government, bringing a broad perspective and adaptability to each unique challenge.
       </p>
       <h2>Technical Skills</h2>
       <ul>
