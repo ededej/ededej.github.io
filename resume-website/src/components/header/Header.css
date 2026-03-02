@@ -1,64 +1,109 @@
 .header {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
+  background-color: #1a1a1a;
+  padding: 24px 40px;
+  border-bottom: 4px solid #7B0D1E;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-name {
+  margin: 0;
+  font-size: 2em;
+  color: #fff;
+}
+
+.header-title {
+  margin: 4px 0 0;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.header-contact {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: large;
+}
+
+.header-email,
+.header-linkedin {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  opacity: 0.9;
+}
+
+.header-email:hover,
+.header-linkedin:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .header {
     padding: 20px;
-    background-color: #d3dfe7; /* Neutral background color */
-    border-bottom: 1px solid #ddd;
   }
-  
+
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .header-left {
-    display: flex;
+    flex-direction: column;
     align-items: center;
   }
-  
-  .header-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
+
   .header-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 0;
+    margin-bottom: 12px;
   }
-  
-  .header-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+  .header-right {
+    align-items: center;
+    margin-top: 16px;
   }
-  
-  .header-name {
-    margin: 0;
-    font-size: 2em;
-  }
-  
-  .header-title {
-    margin: 0;
-    font-size: 1.2em;
-    color: #333; /* Darker text for better readability */
-  }
-  
+
   .header-contact {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-size: large;
+    align-items: center;
   }
-  
-  .header-email,
-  .header-linkedin {
-    color: #0073b1;
-    text-decoration: none;
-    margin: 5px 0; /* Adds some space between the links */
-  }
-  
-  .header-email:hover,
-  .header-linkedin:hover {
-    text-decoration: underline;
-  }
-  
+}

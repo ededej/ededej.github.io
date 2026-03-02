@@ -5,6 +5,7 @@ import profilePicture from '../../assets/image.png'; // Adjust the path based on
 const Header = () => {
   return (
     <header className="header">
+      <div className="header-inner">
       <div className="header-left">
         <img src={profilePicture} alt="Ermal Dedej" className="header-picture" />
         <div className="header-text">
@@ -17,6 +18,7 @@ const Header = () => {
           <a href="mailto:dedej33@gmail.com" className="header-email">dedej33@gmail.com</a>
           <a href="https://www.linkedin.com/in/ermal-dedej-3258b2b6/" target="_blank" rel="noopener noreferrer" className="header-linkedin">LinkedIn</a>
         </p>
+      </div>
       </div>
     </header>
   );
