@@ -1,19 +1,39 @@
-/* Add any specific styles for the AboutMe section here if needed */
 p {
-    padding-left: 20px;
-    margin-top: 5px;
-    text-align: left;
+  padding-left: 20px;
+  margin-top: 5px;
+  text-align: left;
 }
 
-/* Add any specific styles for the AboutMe section here if needed */
+.skills-section {
+  margin-top: 12px;
+  padding-left: 20px;
+}
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
-  
+.skills-category {
+  margin-bottom: 14px;
+}
+
+.skills-category-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #7B0D1E;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-badge {
+  background-color: #f9f0f1;
+  color: #1a1a1a;
+  border: 1px solid #7B0D1E;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}

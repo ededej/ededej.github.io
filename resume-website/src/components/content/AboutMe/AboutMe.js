@@ -17,12 +17,24 @@ const AboutMe = () => {
       <p> 
       I’ve worked across industries like finance, education, and government—you name it, I’ve probably helped build something cool. From virtual credit cards and student class progress tracking to... an atomic bomb? (Kidding, it’s government, but something way cooler that doesn’t destroy the world, like scheduling systems for new U.S. citizens). Who knew government could be fun?! And since I’m endlessly curious, I’m always up-to-date on the latest tech trends, keeping everything I touch optimized, secure, and ready for the future.
       </p>
-    <h2>Technical Skills</h2><ul>
-        <li><strong>Languages:</strong> Java, Typescript, NodeJs, Python, Javascript, Kotlin, SQL, NoSQL (DynamoDB), C, C#, Android Application</li>
-        <li><strong>Certification:</strong> AWS Certified Solutions Architect</li>
-        <li><strong>Frameworks:</strong> Serverless, Spring Framework, K6, Karate, Cypress, ReactJS, AngularJS, SASS, CSS, HTML</li>
-        <li><strong>Tools:</strong> AWS SDK, AWS CDK, SAM, CFT, New Relic, Splunk, Git, Docker, Codefresh, Codeclimate, Jenkins, Sonar</li>
-      </ul>
+    <h2>Technical Skills</h2>
+    <div className="skills-section">
+      {[
+        { category: 'Languages', items: ['Java', 'TypeScript', 'Node.js', 'Python', 'JavaScript', 'Kotlin', 'SQL', 'NoSQL (DynamoDB)', 'C', 'C#', 'Android'] },
+        { category: 'Certification', items: ['AWS Certified Solutions Architect'] },
+        { category: 'Frameworks', items: ['Serverless', 'Spring Framework', 'K6', 'Karate', 'Cypress', 'ReactJS', 'AngularJS', 'SASS', 'CSS', 'HTML'] },
+        { category: 'Tools', items: ['AWS SDK', 'AWS CDK', 'SAM', 'CFT', 'New Relic', 'Splunk', 'Git', 'Docker', 'Codefresh', 'Codeclimate', 'Jenkins', 'Sonar'] },
+      ].map(({ category, items }) => (
+        <div key={category} className="skills-category">
+          <strong className="skills-category-label">{category}</strong>
+          <div className="skills-badges">
+            {items.map(skill => (
+              <span key={skill} className="skill-badge">{skill}</span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
     </Section>
   );
 }

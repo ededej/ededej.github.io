@@ -1,15 +1,16 @@
 .footer {
-  background-color: #007acc;
+  background-color: #1a1a1a;
+  border-top: 4px solid #7B0D1E;
   color: #fff;
-  text-align: inherit;
-  padding: 0px ;
-  margin-top: 10px;
+  text-align: center;
+  padding: 8px 0;
   position: fixed;
   width: 100%;
   bottom: 0;
-  .header-email,
-  .header-linkedin {
-    color: #fff;
-    margin: 5px 5px; /* Adds some space between the links */
-  }
+}
+
+.footer .header-email,
+.footer .header-linkedin {
+  color: #fff;
+  margin: 0 5px;
 }
