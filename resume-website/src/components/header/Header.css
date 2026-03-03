@@ -77,6 +77,14 @@
   opacity: 1;
 }
 
+.open-to-work {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #4caf50;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 600px) {
   .header {
     padding: 20px;

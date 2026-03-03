@@ -1,4 +1,18 @@
 .section-content {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.fade-in-section {
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.fade-in-section.will-animate {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
