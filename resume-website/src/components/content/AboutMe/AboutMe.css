@@ -88,10 +88,10 @@
   color: #1a1a1a;
 }
 
-.modal-warning {
+.modal-card .modal-warning {
   font-size: 0.8rem;
   color: #888;
-  margin: 0 0 8px !important;
+  margin: 0 0 8px;
   font-style: italic;
 }
 
