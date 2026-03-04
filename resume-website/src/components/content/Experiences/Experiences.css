@@ -1,8 +1,12 @@
 .divider {
-    height: 3px;
-    background-color: #e8d9b0;
-    margin: 20px 0; /* Adjust margin as needed */
-  }
+  height: 1px;
+  background-color: #ebebeb;
+  margin: 28px 0;
+}
+
 .experience-name {
-    text-decoration: underline;
-  }
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+}
