@@ -14,3 +14,7 @@
 .cert-info strong { font-size: 1rem; }
 
 .cert-info span { font-size: 0.85rem; color: #666; margin-top: 2px; }
+
+.cert-badge-link { font-size: 0.85rem; color: #7B0D1E; margin-top: 6px; text-decoration: none; }
+
+.cert-badge-link:hover { text-decoration: underline; }
