@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutMe from './AboutMe/AboutMe';
-import Certifications from './Certifications/Certifications';
 import Experiences from './Experiences/Experiences';
 import Education from './Education/Education';
 import OtherInterests from './OtherInterests/OtherInterests';
@@ -11,7 +10,6 @@ const Content = () => {
   return (
     <main className="content">
       <AboutMe />
-      <Certifications />
       <Experiences />
       <Education />
       <Languages />

@@ -15,10 +15,11 @@ const AboutMeModal = ({ onClose }) => {
         <button className="modal-close" onClick={onClose}>✕</button>
         <p className="modal-warning">⚠️ Warning: reading this may cause excessive hiring enthusiasm.</p>
         <h3 className="modal-title">The Full Story (you asked for it)</h3>
-        <p>In my soul, I'm an engineer who loves solving problems. My goal? To provide solutions that are easy to implement, with a heavy focus on usability (because who doesn't love things that work and are easy to use?). I'm a software engineer who uses soft tools to deliver strong results — get it? Soft tools? Strong results? Yeah, I like wordplay :).</p>
-        <p>By day, I'm a Lead Software Engineer specializing in building secure and scalable backend systems. But hey, I'm not just living in the back end. I've dabbled in frontend tech too — React, Angular, Java (Android apps) — you name it, I've probably tinkered with it. I like to think of myself as semi-full stack, but definitely leaning toward backend because that's where the real fun (and magic) happens, you know, like 1's and 0's.</p>
-        <p>When I'm not coding (threading) or leading engineering teams, I'm busy collaborating with stakeholders to bring big ideas to life. I make sure projects run smoothly, hit business goals, and get delivered on time. I've got a knack for performance optimization, testing, and taking ownership of projects from start to finish — just like a true nerdy superhero.</p>
-        <p>I've worked across industries like finance, education, and government — you name it, I've probably helped build something cool. From virtual credit cards and student class progress tracking to... an atomic bomb? (Kidding, it's government, but something way cooler that doesn't destroy the world, like scheduling systems for new U.S. citizens). Who knew government could be fun?! And since I'm endlessly curious, I'm always up-to-date on the latest tech trends, keeping everything I touch optimized, secure, and ready for the future.</p>
+        <p>I'm a software engineer at heart who ended up in leadership because I couldn't stop trying to make the team around me better. Turns out that's a useful instinct.</p>
+        <p>My background is backend (distributed systems, high-traffic APIs, cloud infrastructure), but I've touched enough frontend, mobile, and DevOps to have dangerous opinions about all of it. I lean toward backend because that's where the hard, interesting problems live.</p>
+        <p>Over 8+ years I've worked across finance, government, and education, which means I've had to care about security, compliance, scale, and user experience all at once. Those constraints make you a better engineer.</p>
+        <p>What I actually enjoy: taking messy legacy systems and making them clean, mentoring engineers who are figuring out their craft, and shipping things that work reliably at scale. Less glamorous than it sounds, more satisfying than anything else I've tried.</p>
+        <p>I'm open to lead and staff-level roles where the technical problems are hard and the team actually wants to get better.</p>
       </div>
     </div>
   );
@@ -30,12 +31,15 @@ const AboutMe = () => {
   return (
     <Section title="About Me">
       <p className="about-tagline">
-        Lead engineer who builds teams as well as systems — and occasionally makes terrible wordplay jokes.
+        Lead engineer who builds teams as well as systems. 8+ years delivering high-scale backend solutions across finance, government, and education.
+      </p>
+      <p className="about-intro">
+        I care about two things equally: writing clean, scalable code and building teams that can do the same without me in the room.
       </p>
       <ul className="about-highlights">
-        <li><strong>8+ years</strong> of engineering across finance, government, and education — the last 4 in <strong>lead roles</strong></li>
+        <li><strong>8+ years</strong> of engineering across finance, government, and education, with the last 4 in <strong>lead roles</strong></li>
         <li><strong>Leads and mentors engineering teams</strong>, drives technical roadmaps, and aligns engineering with business goals</li>
-        <li>Deep backend expertise with full-stack range — React, Angular, Android, you name it</li>
+        <li>Deep backend expertise with full-stack range: React, Angular, Android, and more</li>
         <li>Delivered high-traffic APIs, virtual card systems, and scheduling software serving millions of customers</li>
       </ul>
 
@@ -48,9 +52,11 @@ const AboutMe = () => {
       <h2>Technical Skills</h2>
       <div className="skills-section">
         {[
-          { category: 'Languages', items: ['Java', 'TypeScript', 'Node.js', 'Python', 'JavaScript', 'Kotlin', 'SQL', 'NoSQL (DynamoDB)', 'C', 'C#', 'Android'] },
-          { category: 'Frameworks', items: ['Serverless', 'Spring Framework', 'K6', 'Karate', 'Cypress', 'ReactJS', 'AngularJS', 'SASS', 'CSS', 'HTML'] },
-          { category: 'Tools', items: ['AWS SDK', 'AWS CDK', 'SAM', 'CFT', 'New Relic', 'Splunk', 'Git', 'Docker', 'Codefresh', 'Codeclimate', 'Jenkins', 'Sonar'] },
+          { category: 'Languages', items: ['Java', 'TypeScript', 'Node.js', 'Python', 'JavaScript', 'Kotlin', 'SQL', 'NoSQL', 'C', 'C#', 'Android'] },
+          { category: 'Frameworks', items: ['Serverless', 'Spring Framework', 'K6', 'Karate', 'Cypress', 'ReactJS', 'AngularJS', 'SASS', 'CSS'] },
+          { category: 'Tools', items: ['AWS SDK', 'AWS CDK', 'SAM', 'CFT', 'New Relic', 'Splunk', 'Git', 'Docker', 'Codefresh', 'CodeClimate', 'Jenkins', 'Sonar', 'Terraform', 'Fargate', 'Lambda', 'EC2 Cloud', 'DynamoDB'] },
+          { category: 'AI & Developer Productivity', items: ['Claude AI', 'Windsurf AI IDE', 'GitHub Copilot AI', 'Prompt Engineering', 'AI-Assisted Development & Testing', 'LLM-Powered Code Generation'] },
+          { category: 'Certifications', items: ['AWS Certified Solutions Architect – Associate'] },
         ].map(({ category, items }) => (
           <div key={category} className="skills-category">
             <strong className="skills-category-label">{category}</strong>
