@@ -24,18 +24,18 @@ body {
 .content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 48px 28px 80px;
+  padding: 28px 28px 80px;
   text-align: left;
 }
 
 .section {
-  margin-bottom: 52px;
+  margin-bottom: 20px;
   padding-top: 8px;
 }
 
 .section + .section {
   border-top: 1px solid #ebebeb;
-  padding-top: 40px;
+  padding-top: 14px;
 }
 
 .section h2 {
@@ -77,6 +77,6 @@ a:hover {
 
 @media (max-width: 600px) {
   .content {
-    padding: 24px 16px 80px;
+    padding: 16px 16px 80px;
   }
 }

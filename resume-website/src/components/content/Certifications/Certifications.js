@@ -5,9 +5,9 @@ import './Certifications.css';
 const Certifications = () => (
   <Section title="Certifications">
     <div className="cert-card">
-      <div className="cert-info">
-        <strong>AWS Certified Solutions Architect – Associate</strong>
-        <span>Amazon Web Services · Issued November 2021</span>
+      <strong>AWS Certified Solutions Architect – Associate</strong>
+      <span className="cert-meta">
+        Amazon Web Services · Issued November 2021 ·{' '}
         <a
           href="https://www.credly.com/badges/00d5de84-a65f-4892-8432-18093827ae96"
           target="_blank"
@@ -16,7 +16,7 @@ const Certifications = () => (
         >
           Verify on Credly ↗
         </a>
-      </div>
+      </span>
     </div>
   </Section>
 );

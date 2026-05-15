@@ -10,3 +10,10 @@
   color: #1a1a1a;
   text-decoration: none;
 }
+
+.promotion-note {
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  font-size: 0.88em;
+}
